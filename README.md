@@ -1,1 +1,12 @@
 # qa_python
+
+1. Добавлена проверка добавления одной книги test_add_new_book_add_one_book_book_added
+2. Добавлена негативная проверка добавления книги с недопустимой длиной test_add_new_book_add_negative_input_book_not_added
+3. Добавлена проверка установки жанра книги test_set_book_genre_book_genre_set
+4. Добавлена проверка получения жанра книги test_get_book_genre_book__genre_got
+5. Добавлена проверка получения книг определённого жанра test_get_books_with_specific_genre_book_genre_specific_books
+6. Добавлена проверка получения словаря books_genre test_get_books_genre_got
+7. Добавлена проверка получения книг для детей test_get_books_for_children_age_rating_filtered
+8. Добавлена проверка добавления книги в избранное test_add_book_in_favorites_book_in_favorites
+9. Добавлена проверка удаления книги из избранного test_delete_book_from_favorites__book_not_in_favorites
+10. Добавлена проверка получения избранных книг test_get_list_of_favorites_books_get_favorites_list
